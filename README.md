@@ -7,7 +7,7 @@ Requirements:
 
        > 1. Get Method
        > 2. you can use any url definition you want
-       > 3. returning a json object which is the hard coded content as bottom attached as well as http code 200
+       > 3. returning a json object which is the hard coded content as data.json (in the same repo as this readme.md) as well as http code 200
        > 4. The Json object must follow the hierarchy structure but the data details may be flexible (pay attention to the array hierarchy)
        > 5. Using pydantic library to validate the json payload
 
@@ -29,41 +29,3 @@ Requirements:
  5.  The frontend datatable design can be flexible but consider the best user experience first.
  6.  Please use flask-restful to implement backend python rest API
  7.  you must use ng-zorro angular library for frontend implementation
-
-
-{
-  "clubs": [
-    {
-      "club_members": [
-        {
-          "name": "Peter",
-          "age": 30
-        },
-        {
-          "name": "David",
-          "age": 30
-        }
-      ],
-      "club_name": "Ivy",
-      "club_address": "Longpipe road"
-    },
-    {
-      "club_members": [
-        {
-          "name": "Mike",
-          "age": 35
-        },
-        {
-          "name": "Lucas",
-          "age": 32
-        },
-        {
-          "name": "Fann",
-          "age": 39
-        }
-      ],
-      "club_name": "Daisy",
-      "club_address": "Bradfor road"
-    }
-  ]
-}
