@@ -1,4 +1,4 @@
-# Welcome to Scotiabank GNE test!
+# Welcome to GNE test!
 
 
 Requirements:
